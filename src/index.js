@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.scss";
-import ReactIcon from "./ReactIcon";
+import ReactLogoScreen from "./examples/react-logo-screen/react-logo-screen";
 
 const EntryPoint = () => (
 	<React.StrictMode>
-		<ReactIcon />
+		<ReactLogoScreen />
 	</React.StrictMode>
 );
 
