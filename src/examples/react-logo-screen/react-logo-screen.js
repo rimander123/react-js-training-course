@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './react-logo-screen.css';
+import Button from "../../button";
+import MyThing from "../../input";
+import Input from "../../input";
+import logo from "./logo.svg";
+import "./react-logo-screen.css";
 
 const ReactLogoScreen = () => {
-	return (
-		<div className="App">
+  return (
+    /*<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
@@ -18,8 +21,12 @@ const ReactLogoScreen = () => {
 					Learn React
 				</a>
 			</header>
-		</div>
-	);
-}
+		</div>*/
+    <div>
+      <MyThing value="" />
+      <Button />
+    </div>
+  );
+};
 
 export default ReactLogoScreen;
